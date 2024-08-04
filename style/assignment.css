@@ -41,7 +41,7 @@ li a{
 }
 
 .banner-pic{
-    width: 200px;
+    width: 250px;
 }
 .section-des{
     font-size: 36px;
@@ -59,3 +59,48 @@ li a{
     background-color: red;
     border-radius: 3px;
 }
+.about-section{
+    height: 500px;
+}
+
+.about{
+    text-align: center;
+    font-size: 38px;
+    margin-top: 15px;
+}
+
+.about-pic{
+    width: 200px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+    margin-top: 30px;
+    gap: 100px;
+
+}
+.about-pic{
+    margin-left: 230px;
+}
+
+.about{
+    text-align: center;
+    font-size: 38px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.about-des{
+    margin-right: 300px;
+    
+
+}
+.about-title{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.pra{
+    margin-bottom: 10px;
+}
+
+
