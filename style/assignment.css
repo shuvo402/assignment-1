@@ -7,32 +7,38 @@
     background-color: #4d4c4c;
     width: 100%;
     height: 50px;
+    color: white;
     justify-content:space-around
+    
+    
 }
 .head-logo{
     width: 100px;
     /* text-align: center; */
     margin: 15px;
 }
-.head-menu ,li ,a{
-    display: flex;
-    text-decoration:none;
+.navbar{
     color: white;
-    display: inline;
-    margin:15px;
-    margin-right: 0px;
-    /* text-align: center; */
-    /* justify-items: center; */
-    /* justify-content: center; */
-    padding-right: 0px;
+    margin-left: 40px;
+    padding-top: 15px;
+
+}
+.sona{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    margin-left: 20px;
+
+    
 }
 li a{
     text-decoration: none;
+    color: white;
 }
-
 .section-container{
     display: flex;
-    height: 600px;
+    height: 100vh;
     justify-content: space-around;
     border: 2px solid black;
     align-items: center;
@@ -102,5 +108,87 @@ li a{
 .pra{
     margin-bottom: 10px;
 }
+.our-logo{
+    width: 50px;
+    margin-top:10px;
+    margin-left: 65px;
+}
+.our-section{
+    background-color: rgb(31, 30, 30);
+    height: 450px;
+}
+.our-container{
+    display: flex;
+    /* background-color: rgb(27, 26, 26); */
+    justify-content: space-around;
+    /* height: 500px; */
+    align-items: center;
+}
+.box{
+    width: 190px;
+    background: black;
+    height: 260px;
+    color: white;
+    border-radius: 5px;
+    /* box-shadow: 10px 10px 20px white; */
+    box-shadow: ;
+    margin-top: 20px;
+    padding-top: 0px;
 
+}
+.our-p , .our-h {
+    text-align: center;
+    margin-top: 10px;
+}
+.our-btn{
+    margin-left: 60px;
+    margin-top: 15px;
+    padding: 5px 10px;
+    background-color: #4d4c4c;
+
+}
+.our-about{
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 50px;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.footer-section{
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding: 100px 150px 10px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 100px; */
+    padding-bottom: 120px;
+    /* margin-bottom: 150px; */
+}
+.footer-item{
+    width: 200px;
+    /* background: #4d4c4c; */
+    
+}
+.main-head{
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+.links{
+    list-style: none;
+    padding-top: 4px;
+}
+.henda{
+    padding-bottom: 25px;
+    padding-top: 4px;
+    font-size: 18px;
+}
+.foot{
+    text-align: center;
+    padding-top: 20px;
+}
 
